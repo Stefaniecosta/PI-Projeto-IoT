@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  font-family: Nunito;
+}
+
+.diferent {
+  color: orangered;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container .logo {
+  float: left;
+  color: white;
+}
+
+.container nav {
+  color: white;
+  list-style: none;
+  float: right;
+  margin-top: 15px;
+}
+
+.container li {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+.apresentacao {
+  text-align: center;
+  background-size: cover;
+  background-image: url("img/team.png");
+  background-repeat: no-repeat;
+  min-height: 400px;
+  color: white;
+}
+
+.apresentacao p {
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.container .apresentacao-tittle {
+  padding-top: 50px;
+  font-size: 50px;
+  margin: 0;
+}
+
+.new {
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  height: 80px;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.new h1 {
+  margin: 0;
+  float: left;
+}
+
+.new .letter {
+  float: right;
+}
+
+.new input {
+  height: 25px;
+  width: 225px;
+}
+
+.btn-orange {
+  background-color: orangered;
+  color: #ffffff;
+  border: none;
+  width: 60px;
+  height: 30px;
+}
+
+.laranja {
+  height: 5px;
+  background-color: rgb(236, 156, 28);
+}
+
+/*parte quase final*/
+
+.cont {
+  width: 100%;
+  height: 400px;
+}
+
+  .caixa3 {
+    position: relative;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 100px;
+    justify-items: center;
+    
+  }
+
+
+  .caixa3 p {
+    position: absolute;
+    bottom: -30px;
+    color: black;
+    text-align: center;
+  
+  }
+ 
+
+.imgg {
+  width: 120px;
+  height: 120px;
+  margin-right: 100px;
+  justify-items: center;
+  
+}
+
+/* footer*/
+
+.foter {
+  width: 100%;
+  height: 150px;
+  background-color: orangered;
+}
+
+.autoral {
+  bottom: -100px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.foter p{
+  text-align: center;
+  padding-top: 60px;
+  color: #ffffff;
+  font-size: 18px;
+ 
+}
+
+
+
