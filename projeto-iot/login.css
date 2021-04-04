@@ -1,0 +1,81 @@
+/* zerando os padroes*/
+
+body {
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f6f6f6;
+   
+}
+
+/* caixa com o formulario*/
+
+.box {
+    width: 300px;
+    padding: 50px;
+    position: absolute; /* o elemento com Position Absolute se utiliza do ponto superior esquerdo de outros elementos. */
+    top: 50%; /* coordenada do position, "topo"*/
+    left: 50%; /* coordenada do position, "esquerda*/
+    transform: translate(-50%, -50%);
+    /*O método translate permite deslocar um elemento de sua posição atual até 
+    certa quantidade de unidades definidas para os eixos X e Y. */
+    background:#f6f6f6 ;
+    text-align: center; /* alinha no centro*/
+    box-shadow: 10px 3px 5px 2px rgb(226, 220, 220);
+}
+
+/* h1 dentro do box */
+.box h1 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500; /* expessura da fonte*/
+}
+
+
+
+/* camp = input senha e username*/
+.camp {
+    border: 0;
+    background: none; /*limpa o input todo*/
+    display: block;/*Ocupa 100% da largura do elemento pai */
+    text-align: center;
+    margin: 20px auto; /* envolve a margin do exterior*/
+    border: 2px solid #eb7d16; /*borda do input*/
+    padding: 14px 10px; /* parte interior*/
+    width: 200px;
+    outline: none; /*contorno*/
+    color: rgb(0, 0, 0);
+    border-radius: 24px; /*arredonda a borda*/
+    transition: 0.25s; /*tempo da transiçao do elemento, quando a tela recarrega, 
+    do zero sem formataçao ate a forma atual transformado no css*/
+}
+
+/* :focus do CSS é aplicada quando um elemento recebe foco, o
+ que pode ocorrer quando o usuário seleciona o elemento */
+.camp:focus {
+    width: 280px; /*aumenta o campo quando clica*/
+    border-color: rgb(51, 221, 204); /*muda a cor quando clica*/
+}
+
+/* btn = botao login*/
+.box .btn {
+    border: 0;
+    background: none; /*limpa o input todo*/
+    display: block;/*Ocupa 100% da largura do elemento pai */
+    text-align: center;
+    margin: 20px auto; /* envolve a margin do exterior*/
+    border: 2px solid #95b825; /*borda do input*/
+    padding: 10px; /* parte interior*/
+    width: 100px;
+    outline: none; /*contorno*/
+    color: rgb(1, 2, 2);
+    border-radius: 24px; /*arredonda a borda*/
+    transition: 0.25s; /*tempo da transiçao do elemento, quando a tela recarrega, 
+    do zero sem formataçao ate a forma atual transformado no css*/ 
+   cursor: pointer; /*ponteiro do mouse*/
+}
+
+/* estiliza um link ao passar o mouse sobre ele: no caso o botao login */
+.box .btn:hover {
+    background-color: rgb(118, 226, 212);
+}
