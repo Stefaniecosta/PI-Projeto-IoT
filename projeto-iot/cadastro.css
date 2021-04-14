@@ -1,11 +1,11 @@
 
   
     .imagem {
-      position: relative;
-      display: inline-block;
+      position: relative; /*O elemento fica posicionado de forma relativa, ou seja, fica no seu lugar em relação ao fluxo */
+      display: inline-block; /*display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. */
       margin-left: 760px;
-      top: 20px;
-      justify-items: center;
+      top: 20px; /* top especifica o posicionamento vertical do elemento de acordo com o topo */
+      justify-items: center; /*alinha os itens*/
       
     }
 
